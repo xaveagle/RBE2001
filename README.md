@@ -45,7 +45,7 @@ https://github.com/WPIRoboticsEngineering/RBE2001_template
 
 BE SURE TO SELECT PRIVATE! 
 
-Set the name during the import step as "RBE2001". **Do Not put anything different from that exact string**, Arduino uses directory names to find header files, and this project needs the name to be exactly "RBE2001". Change only if you and your team have all had exprence with Arduino Library develoment.  
+Set the name during the import step as "RBE2001". **Do Not put anything different from that exact string**, Arduino uses directory names to find header files, and this project needs the name to be exactly "RBE2001". Change only if you and your team have all had experience with Arduino Library develoment.  
 
 ## Add your team mates as collaborators
 
@@ -63,7 +63,7 @@ Download the eclipse installer from here:
 
 https://www.eclipse.org/downloads/
 
-Install the C developemt version. 
+Open the installer, select the C developemt version and install it. 
 
 Once the install is done, open eclipse and go to the workbench. Open
 ```
@@ -73,7 +73,9 @@ Search for Sloeber
 
 Install "The Arduino Eclipse IDE named Sloeber" and restart eclipse. 
 
-Set the workspace to Arduino mode. 
+If you are using Windows you may get an error regarding paths being longer than 40 characters. Click Ok
+
+Set the workspace to Arduino mode by cicking the Arduino button in the top right hand corner next to quick access or by opening perspective and selecting Arduino
 
 Open the Arduino Preferences:
 ```
