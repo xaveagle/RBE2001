@@ -45,7 +45,14 @@ https://github.com/WPIRoboticsEngineering/RBE2001_template
 
 BE SURE TO SELECT PRIVATE! 
 
+<<<<<<< HEAD
 Set the name during the import step as "RBE2001". **Do Not put anything different from that exact string**, Arduino uses directory names to find header files, and this project needs the name to be exactly "RBE2001". Change only if you and your team have all had experience with Arduino Library develoment.  
+=======
+If private is not an option, follow these instructions: https://help.github.com/articles/applying-for-a-student-developer-pack/
+
+
+Set the name during the import step as "RBE2001". **Do Not put anything different from that exact string**, Arduino uses directory names to find header files, and this project needs the name to be exactly "RBE2001". Change only if you and your team have all had exprence with Arduino Library develoment.  
+>>>>>>> branch 'master' of https://github.com/WPIRoboticsEngineering/RBE2001_template.git
 
 ## Add your team mates as collaborators
 
@@ -82,18 +89,18 @@ Open the Arduino Preferences:
 Arduino -> Preferences
 ```
 
-Under toolchains, select New.. and search for (where you extracted Arduino)/hardware/ 
+Under Private Hardware Path, select New.. and search for (where you extracted Arduino)/hardware/ 
 
 Mine looks like:
 ```
-/opt/arduino-1.8.1/hardware/
+C:\WPIAPPS\arduino-1.8.3\hardware\
 ```
 
 Under Private Library path, select New.. and search for your user library directory. It is usually in (your users home)\Documents\Arduino\libraries for Windows, or (your users home)/Arduino/libraries for Unix systems. You know you have the right one if the folder contains ESP32Servo, Esp32SimplePacketComs, SimplePacketComs, EspWii and WiiChuck Directories from the library install step above. Remember the location of this folder, it will be where you clone your code in a coming step. 
 
 Mine looks like:
 ```
-/home/hephaestus/Arduino/libraries/
+C:\Users\harrington\Documents\Arduino\libraries
 ```
 
 ## Clone your project
@@ -115,7 +122,7 @@ Set the Destination Directory to your Arduino libraries folder (the folder you a
 
 Mine looks like:
 ```
-/home/hephaestus/Arduino/libraries/RBE2001
+C:\Users\harrington\Documents\Arduino\libraries\RBE2001
 ```
 
 Hit Finish
@@ -137,6 +144,7 @@ Core Debug Level: None
 Flash Frequency 80mhz
 Flash Mode: QIO
 Flash Size: 4mb
+Partition Scheme: Default
 Upload Speed: 921600
 ```
 Then hit next
@@ -151,6 +159,11 @@ Hit finish. The code that you should edit is in your project under libraries/RBE
 
 # Commit your changes
 
+### Unfamiliar with Git?
+
+run through this tutorial: https://resources.github.com/videos/github-best-practices/
+
+### Familiar with Git?
 When you make a change to any line of code, you should commit your changes. If you have worked for ~1 hour, then you should make a commit with a message describing your work. To do so, go back to 
 
 Git Repositories
